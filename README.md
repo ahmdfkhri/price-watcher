@@ -12,7 +12,15 @@
 1. Ekstrak .zip ke direktori manapun, kemudian masuk ke direktori tersebut
 
 2. Install dependensi php
+<code>composer install</code>
 
-<code>
-  composer install
-</code>
+3. Install dependensi npm
+<code>npm install</code>
+
+4. Migrasi database
+<code>php artisan migrate:fresh</code>
+
+5. Duplikasikan file 'env.example' dan ubah nama menjadi '.env'
+
+6. Generate key
+<code>php artisan key:generate</code>
