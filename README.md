@@ -20,7 +20,13 @@
 4. Migrasi database
 <code>php artisan migrate:fresh</code>
 
-5. Duplikasikan file 'env.example' dan ubah nama menjadi '.env'
+5. Duplikasikan file 'env.example' dan ubah nama menjadi '.env' kemudian sesuaikan username dan password database MySQL anda. 
 
 6. Generate key
 <code>php artisan key:generate</code>
+
+7. Jalankan project laravel
+<code>php artisan serve</code>
+
+8. Jalankan vite
+<code>npm run dev</code>
